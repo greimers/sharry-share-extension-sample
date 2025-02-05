@@ -38,7 +38,7 @@ This works all fine on iOS. But on macOS, the app is not shown as a target in th
 
 This is how the Info.plist of the Mac share extension looks like:
 
-
+```XML
 ...
 <plist version="1.0">
 <dict>
@@ -61,5 +61,6 @@ This is how the Info.plist of the Mac share extension looks like:
 	...
 </dict>
 </plist>
+```
 
 There is a `NSExtensionActivationSupportsText` but it seems this cannot be combined with a subquery rule.
